@@ -1,0 +1,12 @@
+export const Hello = () => {
+  return (
+    <div>Hello</div>
+  )
+}
+    
+export const Welcome = () => {
+    return React.createElement(
+        'div',
+         {id: 'hello', className: 'App-header'},
+         React.createElement('h1', null, 'hello zia'))
+}
